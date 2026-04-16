@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles for Yassen Reda Portfolio */
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #0a0a0a;
+  color: #e5e7eb;
+  scroll-behavior: smooth;
+}
+
+nav {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3);
+}
+
+.hero-bg {
+  background: linear-gradient(135deg, #064e3b 0%, #000000 50%, #022c22 100%);
+}
+
+/* Nice hover effects */
+.card {
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #10b981;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #34d399;
+}
